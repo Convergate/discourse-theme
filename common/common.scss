@@ -14,6 +14,8 @@ p {
 
 // Header
 .d-header {
+  box-shadow: none !important;
+  backface-visibility: hidden;
   #site-logo {
     max-height: 2em;
     max-width: 100%;
@@ -528,5 +530,4 @@ div.menu-links-header .menu-links-row li a.active {
 
 .discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
   background: #ff9651;
-  box-shadow: 1px 1px 4px 0px #ccc;
 }
