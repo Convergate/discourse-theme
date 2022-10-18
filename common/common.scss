@@ -520,3 +520,13 @@ div.menu-links-header {
 div.menu-links-header .menu-links-row li a.active {
   border-bottom-color: var(--main-background);
 }
+
+.search-menu .search-input {
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+}
+
+.discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
+  background: #ff9651;
+  box-shadow: 1px 1px 4px 0px #ccc;
+}
