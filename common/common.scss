@@ -549,3 +549,7 @@ div.menu-links-header .menu-links-row li a.active {
 .navigation-categories .navigation-container, .categories-list .navigation-container{
   border-bottom: 0px !important;
 }
+
+.container.posts>.row{
+  box-shadow: none !important;
+}
