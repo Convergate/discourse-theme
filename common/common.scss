@@ -531,3 +531,12 @@ div.menu-links-header .menu-links-row li a.active {
 .discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
   background: #ff9651;
 }
+
+.d-header-icons .icon:hover, .d-header-icons .icon:focus, .d-header-icons .active .icon, .d-header-icons .active .icon:hover, .drop-down-mode .d-header-icons .icon:hover, .drop-down-mode .d-header-icons .icon:focus, .drop-down-mode .d-header-icons .active .icon, .drop-down-mode .d-header-icons .active .icon:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.d-header-icons .icon:hover .d-icon, .d-header-icons .icon:focus .d-icon, .d-header-icons .active .icon .d-icon, .d-header-icons .active .icon:hover .d-icon, .drop-down-mode .d-header-icons .icon:hover .d-icon, .drop-down-mode .d-header-icons .icon:focus .d-icon, .drop-down-mode .d-header-icons .active .icon .d-icon, .drop-down-mode .d-header-icons .active .icon:hover .d-icon {
+  color: #000000;
+}
