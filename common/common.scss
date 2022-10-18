@@ -17,7 +17,7 @@ p {
   box-shadow: none !important;
   backface-visibility: hidden;
   #site-logo {
-    max-height: 2em;
+    max-height: 3em;
     max-width: 100%;
     filter: invert(get_invert($logo-invert-colors))
       hue-rotate(#{$logo-hue-rotation}deg)
