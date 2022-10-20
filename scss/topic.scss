@@ -107,7 +107,7 @@ aside.onebox {
 
 #topic-footer-buttons {
   //WARNING! You are not supposed to use id's for styling, but there's no other way to get to this element. I suggest adding a class to this element
-  max-width: none;
+  // max-width: none;
   min-height: 36px;
   min-width: 957px;
   .pinned-button .reason,
